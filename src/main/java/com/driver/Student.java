@@ -7,11 +7,6 @@ public class Student {
     private int age;
     private double averageScore;
 
-    public Student(){
-        this.name = name;
-        this.age = age;
-        this.averageScore = averageScore;
-    }
     public String getName() {
         return name;
     }
@@ -22,5 +17,10 @@ public class Student {
 
     public double getAverageScore() {
         return averageScore;
+    }
+    public Student(){
+        this.name = name;
+        this.age = age;
+        this.averageScore = averageScore;
     }
 }
